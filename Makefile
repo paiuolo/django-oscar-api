@@ -19,3 +19,8 @@ coverage:
 
 docs: install
 	cd docs && make clean && make html
+
+# patch
+bookstore: install
+	python bookstore/manage.py migrate
+	python bookstore/manage.py loaddata auth catalogue partner

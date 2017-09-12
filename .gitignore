@@ -20,3 +20,6 @@ docs/build/
 demosite/images
 demosite/cache
 demosite/*.sqlite
+
+# patch
+virtualenv/

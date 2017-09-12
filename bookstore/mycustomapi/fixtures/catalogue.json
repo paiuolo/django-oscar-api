@@ -1,0 +1,67 @@
+[
+{
+   "model": "catalogue.productclass",
+   "pk": 2,
+   "fields": {
+      "name": "Book",
+      "slug": "book",
+      "requires_shipping": true,
+      "track_stock": true,
+      "options": []
+   }
+},
+{
+   "model": "catalogue.category",
+   "pk": 2,
+   "fields": {
+      "path": "0002",
+      "depth": 1,
+      "numchild": 0,
+      "name": "Books",
+      "description": "",
+      "image": "",
+      "slug": "books"
+   }
+},
+{
+   "model": "catalogue.productcategory",
+   "pk": 2,
+   "fields": {
+      "product": 4,
+      "category": 2
+   }
+},
+{
+   "model": "catalogue.product",
+   "pk": 4,
+   "fields": {
+      "structure": "standalone",
+      "upc": "",
+      "parent": null,
+      "title": "Farlocco",
+      "slug": "farlocco",
+      "description": "",
+      "product_class": 2,
+      "rating": null,
+      "date_created": "2017-09-12T17:23:12.880Z",
+      "date_updated": "2017-09-12T17:25:20.600Z",
+      "is_discountable": true,
+      "product_options": []
+   }
+},
+{
+   "model": "catalogue.attributeoptiongroup",
+   "pk": 1,
+   "fields": {
+      "name": "Sizes"
+   }
+},
+{
+   "model": "catalogue.attributeoption",
+   "pk": 1,
+   "fields": {
+      "group": 1,
+      "option": "Small"
+   }
+}
+]
