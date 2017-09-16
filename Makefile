@@ -21,6 +21,10 @@ docs: install
 	cd docs && make clean && make html
 
 # patch
+vanilla: install
+	python vanilla/manage.py migrate
+	python vanilla/manage.py loaddata auth catalogue partner
+
 bookstore: install
 	python bookstore/manage.py migrate
 	python bookstore/manage.py loaddata auth catalogue partner

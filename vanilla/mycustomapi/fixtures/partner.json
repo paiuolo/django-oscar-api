@@ -1,0 +1,29 @@
+[
+{
+   "model": "partner.partner",
+   "pk": 1,
+   "fields": {
+      "code": "store",
+      "name": "Store",
+      "users": []
+   }
+},
+{
+   "model": "partner.stockrecord",
+   "pk": 1,
+   "fields": {
+      "product": 4,
+      "partner": 1,
+      "partner_sku": "0000000000",
+      "price_currency": "EUR",
+      "price_excl_tax": "1.00",
+      "price_retail": "1.00",
+      "cost_price": "1.00",
+      "num_in_stock": 1,
+      "num_allocated": null,
+      "low_stock_threshold": null,
+      "date_created": "2017-09-12T17:40:29.427Z",
+      "date_updated": "2017-09-12T17:40:29.427Z"
+   }
+}
+]
