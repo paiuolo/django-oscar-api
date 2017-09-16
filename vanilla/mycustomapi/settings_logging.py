@@ -1,3 +1,14 @@
+import os
+
+
+# Logging
+location = lambda x: os.path.join(
+    os.path.dirname(os.path.realpath(__file__)), x)
+LOG_ROOT = location('logs')
+
+if not os.path.exists(LOG_ROOT):
+    os.mkdir(LOG_ROOT)
+
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error.

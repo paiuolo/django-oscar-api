@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'mycustomapi',
     'widget_tweaks',
+    
+    'apps.users',
 ] + get_core_apps()
 
 MIDDLEWARE_CLASSES = [
@@ -150,6 +152,8 @@ REST_FRAMEWORK = {
     )
 }
 
+
+from .settings_oscar import *
 from oscar.defaults import *  # noqa
 
 # patch
