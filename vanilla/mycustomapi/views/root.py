@@ -25,6 +25,7 @@ def PUBLIC_APIS(r, f):
         ('countries', reverse('country-list', request=r, format=f)),
         
         ('categories', reverse('category-list', request=r, format=f)),
+        ('ranges', reverse('range-list', request=r, format=f)),
     ]
 
 
