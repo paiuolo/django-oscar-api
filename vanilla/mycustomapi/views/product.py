@@ -1,5 +1,6 @@
-from mycustomapi.serializers.product import MyProductLinkSerializer
 from oscarapi.views import basic
+
+from ..serializers.product import MyProductLinkSerializer
 
 
 class ProductList(basic.ProductList):

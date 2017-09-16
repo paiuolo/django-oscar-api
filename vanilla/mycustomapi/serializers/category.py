@@ -1,6 +1,6 @@
-from oscar.core.loading import get_model
 from rest_framework import serializers
 from rest_framework.reverse import reverse
+from oscar.core.loading import get_model
 from oscarapi.utils import OscarHyperlinkedModelSerializer
 
 

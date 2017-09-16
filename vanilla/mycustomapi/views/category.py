@@ -1,7 +1,9 @@
 from oscar.core.loading import get_model
 from rest_framework import generics
-from mycustomapi.serializers.category import CategorySerializer
-from mycustomapi.serializers.product import MyProductLinkSerializer
+
+from ..serializers.category import CategorySerializer
+from ..serializers.product import MyProductLinkSerializer
+
 
 Category = get_model('catalogue', 'Category')
 Product = get_model('catalogue', 'Product')
